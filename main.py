@@ -7,14 +7,14 @@ class Tree:
      self.type = type
     
   def get_older(self):
-     self.age +- 1
-     
+     self.age += 1
 
-my_tree =Tree()
+my_tree = Tree("type")
 
 print(my_tree.age)
 
 print(my_tree.height)
 
 my_tree.get_older()
+print(my_tree.age)
 
